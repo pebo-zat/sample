@@ -12,7 +12,7 @@ import { PipesContextCreator } from '../pipes/pipes-context-creator';
 import { IRouteParamsFactory } from './interfaces/route-params-factory.interface';
 import { CustomHeader, RedirectResponse } from './router-response-controller';
 export interface ParamProperties {
-    index: number;
+    index: string;
     type: RouteParamtypes | string;
     data: ParamData;
     pipes: PipeTransform[];
