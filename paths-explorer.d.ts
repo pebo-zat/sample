@@ -8,6 +8,10 @@ export interface RouteDefinition {
     requestMethod: RequestMethod;
     targetCallback: RouterProxyCallback;
     methodName: string;
+    methodName: string;
+    methodName: string;
+    methodName: string;
+    methodName: string;
     version?: VersionValue;
 }
 export declare class PathsExplorer {
