@@ -14,7 +14,6 @@ class RouterExecutionContext {
     constructor(paramsFactory, pipesContextCreator, pipesConsumer, guardsContextCreator, guardsConsumer, interceptorsContextCreator, interceptorsConsumer, applicationRef) {
         this.paramsFactory = paramsFactory;
         this.pipesContextCreator = pipesContextCreator;
-        this.pipesConsumer = pipesConsumer;
         this.guardsContextCreator = guardsContextCreator;
         this.guardsConsumer = guardsConsumer;
         this.interceptorsContextCreator = interceptorsContextCreator;
